@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JUnitDemo/JUnitDemo.iml" filepath="$PROJECT_DIR$/JUnitDemo/JUnitDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_8/Java_8.iml" filepath="$PROJECT_DIR$/Java_8/Java_8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LearningMode.iml" filepath="$PROJECT_DIR$/LearningMode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WebService/WebService.iml" filepath="$PROJECT_DIR$/WebService/WebService.iml" />
+    </modules>
+  </component>
+</project>
