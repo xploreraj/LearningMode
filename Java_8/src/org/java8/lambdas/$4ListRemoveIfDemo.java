@@ -5,7 +5,7 @@ import java.util.*;
 public class $4ListRemoveIfDemo {
     public static void main(String[] args) {
         List<Person> list = new ArrayList<>();
-        list.add(new Person("Ram",10));
+        list.add(new Person("Raj",10));
         list.add(new Person("Sam",9));
         list.add(new Person("Jacky",12));
         list.add(new Person("Abram",12));
