@@ -29,8 +29,9 @@ public class $2ListSortDemo {
          * Java 8 - sort() is default interface method, and here we are passing comparator
          * type is auto inferred.
          */
-        Collections.sort(list,
-                (p1, p2) -> p1.getAge()-p2.getAge() );
+        //Collections.sort(list,
+        //        (p1, p2) -> p1.getAge()-p2.getAge() );
+        list.sort((p1, p2) -> p1.getAge()-p2.getAge() );
         System.out.println(list);
 
     }

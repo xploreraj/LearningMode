@@ -6,6 +6,7 @@ public class $3ListForEachDemo {
     public static void main(String[] args) {
         List<String> list = new ArrayList<>();
         list.add("raj"); list.add("deep"); list.add("biswas");
+        list.add("radiator");
 
         /*
          * old way
@@ -25,5 +26,9 @@ public class $3ListForEachDemo {
          * No ConcurrentModificationException can occur.
          */
         list.forEach(name -> System.out.println(name));
+
+        list.forEach(System.out::println);
+
+
     }
 }
